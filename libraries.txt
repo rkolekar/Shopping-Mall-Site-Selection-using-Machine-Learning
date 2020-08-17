@@ -1,0 +1,29 @@
+import numpy as np
+import pandas as pd
+pd.set_option("display.max_columns", None)
+pd.set_option("display.max_rows", None)
+
+from geopy.geocoders import Nominatim 
+import geocoder
+
+import requests
+from bs4 import BeautifulSoup
+
+from pandas.io.json import json_normalize
+import matplotlib.cm as cm
+import matplotlib.colors as colors
+
+import folium
+
+from copy import deepcopy
+from matplotlib import pyplot as plt 
+from sklearn.cluster import KMeans
+from sklearn.cluster import MeanShift
+import scipy
+from scipy.stats import zscore
+
+pip install yellowbrick
+from sklearn.metrics import silhouette_score
+from sklearn.metrics import silhouette_samples, silhouette_score
+
+from yellowbrick.cluster import SilhouetteVisualizer
